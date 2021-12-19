@@ -1,0 +1,65 @@
+body, html {
+    padding: 0px;
+    margin: 0px auto;
+}
+body {
+    background: #cbb661;
+    overflow: hidden;
+}
+.bg-wrapper {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+}
+.starsvg {
+    top: -60vh;
+    left: -65vw;
+    width: 170%;
+    height: 150%;
+    position: relative;
+}
+.jack {
+    position: relative;
+    top: 10vh;
+    left: -15vw;
+    width: 30%;
+    height: 30%;
+    margin: 0px auto;
+}
+.iframe {
+    position: absolute;
+    top: 100px;
+    left: 60vw;
+    background-color: #242526;
+    color: white !important;
+    border-radius: 30px;
+    overflow: hidden;
+    border: none;
+    width: 500px;
+}
+.thing {
+    position: relative;
+    margin-top: 55vh;
+    margin-left: 5vw;
+}
+.title {
+    font-family: "Carnival Freakshow";
+    font-size: 100px;
+}
+
+#jackstone1 {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+
+@font-face {
+    font-family: "Carnival Freakshow";
+    src: url("CarnivaleeFreakshow-DLrm.ttf");
+}

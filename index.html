@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/media/favicon.png" />
+    <title>Jack's Stones</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="Vp2JMhgz"></script>
+    <div class="bg-wrapper" id="scene">
+        <div data-depth="0.2"><img src="/media/star.svg" class="starsvg"></div>
+        <div data-depth="1.5"><img src="/media/jackstone1.png" id="jackstone1"></div>
+        <div data-depth="0.8"><img src="/media/jack.png" alt="jack" class="jack"></div>
+        <div data-depth="1" class="thing"><div class="title">Jack's Stones</div></div>
+    </div>
+    <div class="iframe">
+        <div class="fb-page" data-href="https://www.facebook.com/Jacks-Stones-103677648847588" data-tabs="timeline" data-width="500px" data-height="600px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Jacks-Stones-103677648847588" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Jacks-Stones-103677648847588">Jack’s Stones</a></blockquote></div>
+    </div>
+</body>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</html>
